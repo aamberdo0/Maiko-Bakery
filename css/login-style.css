@@ -1,0 +1,119 @@
+/* This page styles the login and register form  */
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing:border-box;
+    outline:none; 
+    border:none; 
+    text-decoration: none;
+}
+body{
+    background-color:var(--white) ;
+}
+
+/* style the message error  */
+.message{
+    color:orange ;
+    margin:10px 0; 
+    display:block; 
+    border-radius:5px; 
+    font-size:20px;
+    padding:1rem 3rem; 
+    background:var(--white);
+    text-align: center; 
+
+}
+:root{
+    --yellow: #FF9505; 
+    --blue: #A9BCD0; 
+    --white: #fff; 
+    --black:#222; 
+    --border:.2rem solid var(--black); 
+    --box-shadow: 0.8rem 1.3rem rgba(0,0,0,.1); 
+    --light-color:#F9C784; 
+}
+.form-container{
+    min-height: 100vh;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    padding:20px; 
+    text-align: center;
+    background-color: #F9C784;
+
+}
+.form-container form h3{
+    font-size:30px; 
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color:var(--yellow); 
+}
+.btn,.delete-btn, .option-btn{
+    display:inline-block; 
+    padding:10px 20px; 
+    cursor:pointer; 
+    font-size:18px; 
+    border-radius:5px; 
+}
+.btn:hover,.delete-btn:hover, .option-btn:hover{
+    background-color:#FF9505; 
+    color:white;
+}
+.btn{
+    margin-top:10px; 
+    background-color:var(--blue); 
+    color:white; 
+}
+.delete-btn{
+    background-color:white; 
+    color:#FF9505; 
+}
+.option-btn{
+    background-color:var(--yellow); 
+    color:white; 
+}
+.form-container form .box{
+    width:100%; 
+    border-radius:5px; 
+    padding: 12px 14px; 
+    border:var(--border); 
+    margin:10px 0; 
+    font-size: 18px; 
+}
+.form-container form{
+    width:500px; 
+    border-radius:5px; 
+    border:var(--border); 
+    padding:20px; 
+    text-align: center;
+    background-color: var(--white);
+}
+.form-container form p{
+    margin-top:20px; 
+    font-size:20px; 
+    color:var(--black); 
+}
+.form-container form p a{
+    color:var(--yellow); 
+    text-transform:none; 
+    text-decoration:none;
+}
+.form-container form p a:hover{
+    color:var(--yellow); 
+    -webkit-text-stroke:1px var(--yellow); 
+    text-transform:none; 
+    text-decoration:underline;
+}
+.alert{
+    display:none;
+    background: #f1f1f1;
+    color:white;
+    position:relative;
+    padding:10px;
+    margin-top:2px;
+}
+.alert p {
+  padding: 10px 10px;
+  font-size: 13px;
+}
+

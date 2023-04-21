@@ -1,0 +1,5 @@
+[13-Apr-2023 00:18:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/do10/public_html/Bakery/welcome/contact.php:1) in /home4/do10/public_html/Bakery/welcome/contact.php on line 21
+[13-Apr-2023 00:55:22 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home4/do10/public_html/Bakery/welcome/contact_successful.php on line 8
+[13-Apr-2023 00:55:22 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/Bakery/welcome/contact_successful.php on line 8
+[13-Apr-2023 00:55:22 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home4/do10/public_html/Bakery/welcome/contact_successful.php on line 25
+[13-Apr-2023 00:55:22 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home4/do10/public_html/Bakery/welcome/contact_successful.php on line 25
